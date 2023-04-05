@@ -8,7 +8,7 @@ az account set --subscription [your_subscription]
 az group create --name bicepDemo --location westeurope
 
 # create deployment
-az deployment group create --resource-group bicepDemo --template-file main.bicep --parameters solutionName=[your_solution_name]
+az deployment group create --resource-group bicepDemo --template-file main.bicep
 
 # list resources
 az deployment group list --resource-group bicepDemo --output table

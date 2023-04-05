@@ -10,5 +10,5 @@
 
 1. Click on Sample Template.
 1. Select the template ```microsoft.storage/storage-account-create/main.bicep```
-- Remove some ot the allowed values for ```storageAccountType``` and verify the effect on the compiled ARM template.
+1. Remove some ot the allowed values for ```storageAccountType``` and verify the effect on the compiled ARM template.
 1. Optional: make further changes and verify their effect on the ARM template.

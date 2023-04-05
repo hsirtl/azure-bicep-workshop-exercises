@@ -39,7 +39,7 @@
 1. Add an output for the storage account name.  
    ```output storageAccountName string = storageAccountName```
 
-### Deploy your Bicep config to Azure
+### Deploy your Bicep configuration to Azure
 
 A sample solution is available [here](https://raw.githubusercontent.com/hsirtl/azure-bicep-workshop-exercises/main/deploy/challenge-03/ch03-main-final.bicep).
 
@@ -49,7 +49,7 @@ A sample solution is available [here](https://raw.githubusercontent.com/hsirtl/a
   ```az account set --subscription [your_subscription]```
 1. Create a Resource Group  
   ```az group create --name bicepDemo --location westeurope```
-1. Deploy your Bicep specification  
+1. Deploy your Bicep configuration  
   ```az deployment group create --resource-group bicepDemo --template-file main.bicep --parameters solutionName=[your_solution_name]```
 1. Log in to the [Azure Portal](https://portal.azure.com) and verify that the storage account was created.
 

@@ -17,3 +17,4 @@ Welcome to the Azure Bicep Workshop. The page that you are currently reading can
 - [Challenge 1: Explore the Azure Bicep Playground](challenge-01.md)
 - [Challenge 2: Create and deploy your first Bicep config](challenge-02.md)
 - [Challenge 3: Add parameters, variables and outputs to your Bicep config](challenge-03.md)
+- [Challenge 4: Refactor your template to use modules](challenge-04.md)

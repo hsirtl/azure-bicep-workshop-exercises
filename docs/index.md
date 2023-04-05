@@ -19,3 +19,4 @@ Welcome to the Azure Bicep Workshop. The page that you are currently reading can
 - [Challenge 3: Add parameters, variables and outputs to your Bicep config](challenge-03.md)
 - [Challenge 4: Refactor your template to use modules](challenge-04.md)
 - [Challenge 5: Introduce conditional deployments](challenge-05.md)
+- [Challenge 6: Provision your template as template spec](challenge-05.md)

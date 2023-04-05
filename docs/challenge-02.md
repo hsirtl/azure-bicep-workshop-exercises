@@ -4,8 +4,8 @@
 
 ### Open Visual Studio Code
 
-1. Create a new directory for your Bicep content
-1. Open that directory in VS Code
+1. Create a new directory for your Bicep content.
+1. Open that directory in VS Code.
 
 ### Create a new Bicep file
 
@@ -44,7 +44,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   ```az group create --name bicepDemo --location westeurope```
 1. Deploy your Bicep specification  
   ```az deployment group create --resource-group bicepDemo --template-file main.bicep```
-1. Log in to the Azure Portal and verify that the resource was created.
+1. Log in to the [Azure Portal](https://portal.azure.com) and verify that the storage account was created.
 
 ### Clean up
 

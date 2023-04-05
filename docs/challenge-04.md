@@ -24,7 +24,9 @@ The main config should fulfill the following requirements:
 
 ### Deploy your Bicep configuration to Azure
 
-A sample solution is available [here](https://raw.githubusercontent.com/hsirtl/azure-bicep-workshop-exercises/main/deploy/challenge-03/ch03-main-final.bicep).
+A sample solution is available via following links:
+- [main.bicep](https://raw.githubusercontent.com/hsirtl/azure-bicep-workshop-exercises/main/deploy/challenge-04/ch04-main-final.bicep).
+- [storageAccount.bicep](https://raw.githubusercontent.com/hsirtl/azure-bicep-workshop-exercises/main/deploy/challenge-04/modules/storageAccount.bicep).
 
 1. Log in to Azure  
   ```az login```

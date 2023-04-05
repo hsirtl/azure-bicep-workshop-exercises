@@ -6,10 +6,10 @@
 
 1. Open the file ```main.bicep``` in VS Code.
 
-### Add a parameter
+### Add parameters
 
 1. Add a parameter for the location of the storage account.  
-   ```param location string = resourceGroup().location```
+   ```param location string = 'westeurope'```
 1. Add a parameter for the name of your solution.  
    ```param solutionName string```
 
@@ -19,6 +19,8 @@
    ```@description('The location of the storage account')```
 1. Add valid values for the location parameter.  
    ```@allowed(['westeurope', 'northeurope', 'eastus', 'westus'])```
+1. Change the resource specification to use the location parameter.  
+   ```location: location```
 1. Add a description to the solutionName parameter.  
    ```@description('The name of your solution')```
 1. Add parameter ```minLength``` and ```maxLength``` to the solutionName parameter.  
@@ -29,6 +31,8 @@
 
 1. Add a variable for the storage account name.  
    ```var storageAccountName = '${solutionName}${uniqueString(resourceGroup().id)}'```
+1. Change the resource specification to use the variable for the storage account name.  
+   ```name: storageAccountName```
 
 ### Add an output
 
@@ -36,6 +40,8 @@
    ```output storageAccountName string = storageAccountName```
 
 ### Deploy your Bicep config to Azure
+
+A sample solution is available in the [solution](solution) folder.
 
 1. Log in to Azure  
   ```az login```

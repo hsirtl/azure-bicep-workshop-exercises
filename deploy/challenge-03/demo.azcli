@@ -1,0 +1,17 @@
+# login to azure
+az login
+
+# set subscription
+az account set --subscription [your_subscription]
+
+# create resource group
+az group create --name bicepDemo --location westeurope
+
+# create deployment
+az deployment group create --resource-group bicepDemo --template-file main.bicep --parameters solutionName=[your_solution_name]
+
+# list resources
+az deployment group list --resource-group bicepDemo --output table
+
+# delete resource group
+az group delete --name bicep-demo-rg --yes

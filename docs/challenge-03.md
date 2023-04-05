@@ -41,7 +41,7 @@
 
 ### Deploy your Bicep config to Azure
 
-A sample solution is available in the [solution](solution) folder.
+A sample solution is available [here](https://raw.githubusercontent.com/hsirtl/azure-bicep-workshop-exercises/main/deploy/challenge-03/ch03-main-final.bicep).
 
 1. Log in to Azure  
   ```az login```
